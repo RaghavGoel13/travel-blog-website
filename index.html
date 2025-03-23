@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore India - Travel Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/201/201623.png"
+        alt="Travel Logo"
+        class="logo"
+      />
+      <h1>Explore India</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#blogs">Travel Blogs</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section
+      id="home"
+      class="hero"
+      style="
+        background: url('https://media.istockphoto.com/id/1347088244/photo/kerala-most-beautiful-place-of-india.jpg?s=2048x2048&w=is&k=20&c=VBxHEvZ5c5VRVAr5ZweO8XS0utGwdAd0BsDU0oOQyy0=')
+          no-repeat center center/cover;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+      "
+    >
+      <h2>Discover the Beauty of India</h2>
+      <p>Join us as we explore the most breathtaking destinations in India.</p>
+      <button onclick="scrollToSection('blogs')">Read Blogs</button>
+    </section>
+
+    <section id="blogs" class="blogs">
+      <h2>Travel Blogs</h2>
+      <div class="blog-container">
+        <div class="blog-card">
+          <img
+            src="https://media.istockphoto.com/id/519330110/photo/taj-mahal-agra-india-monument-of-love-in-blue-sky.jpg?s=1024x1024&w=is&k=20&c=1lDmEijlmoTDLmB6gQYfnce55OkD04I9eVuNbUpzCjY="
+            alt="Taj Mahal"
+          />
+          <h3>Agra - The Land of Taj Mahal</h3>
+          <p>Explore the majestic beauty of one of the world's wonders...</p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="blog-card">
+          <img
+            src="https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Goa Beach"
+          />
+          <h3>Goa - Sun, Sand, and Sea</h3>
+          <p>Unwind on the golden beaches of Goa...</p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="blog-card">
+          <img
+            src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Kerala Backwaters"
+          />
+          <h3>Kerala - God's Own Country</h3>
+          <p>Immerse yourself in the lush greenery of Kerala...</p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="blog-card">
+          <img
+            src="https://media.istockphoto.com/id/1224021113/photo/indian-cameleers-camel-driver-with-camel-silhouettes-in-dunes-on-sunset-jaisalmer-rajasthan.jpg?s=2048x2048&w=is&k=20&c=7jfwu64-qz1QkDyB24lih3bwbgQYlKfF3ePozOU7shA="
+            alt="Rajasthan Desert"
+          />
+          <h3>Rajasthan - The Royal State</h3>
+          <p>Experience the grandeur of Indian heritage...</p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="blog-card">
+          <img
+            src="https://media.istockphoto.com/id/934701578/photo/paragliding-over-himalayan-mountains.jpg?s=2048x2048&w=is&k=20&c=K8r1ru2donah3hOddazfg8AyJfAckuDsiWviSBpBqas="
+            alt="Manali Hills"
+          />
+          <h3>Manali - The Snow Paradise</h3>
+          <p>Adventure and serenity in the hills of Manali...</p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="blog-card">
+          <img
+            src="https://images.unsplash.com/photo-1598091383021-15ddea10925d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Kashmir Valley"
+          />
+          <h3>Kashmir - Heaven on Earth</h3>
+          <p>Enjoy the breathtaking views of the Himalayas...</p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="blog-card">
+          <img
+            src="https://media.istockphoto.com/id/666238696/photo/longtail-boats-phi-phi-islands-thailand.jpg?s=2048x2048&w=is&k=20&c=W-RonvoMEyQErwVcOTZQPQxTN4s0trMuIbweOXXJIeM="
+            alt="Andaman Islands"
+          />
+          <h3>Andaman - Tropical Paradise</h3>
+          <p>Crystal clear waters and pristine beaches...</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <h2>Photo Gallery</h2>
+      <div class="image-grid">
+        <img
+          src="https://media.istockphoto.com/id/519330110/photo/taj-mahal-agra-india-monument-of-love-in-blue-sky.jpg?s=1024x1024&w=is&k=20&c=1lDmEijlmoTDLmB6gQYfnce55OkD04I9eVuNbUpzCjY="
+          alt="Taj Mahal"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Goa Beach"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Kerala Backwaters"
+        />
+        <img
+          src="https://media.istockphoto.com/id/1224021113/photo/indian-cameleers-camel-driver-with-camel-silhouettes-in-dunes-on-sunset-jaisalmer-rajasthan.jpg?s=2048x2048&w=is&k=20&c=7jfwu64-qz1QkDyB24lih3bwbgQYlKfF3ePozOU7shA="
+          alt="Rajasthan Desert"
+        />
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Explore India | Designed for Travel Enthusiasts</p>
+    </footer>
+  </body>
+</html>
+d
