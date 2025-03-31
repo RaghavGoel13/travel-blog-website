@@ -1,15 +1,7 @@
-// Smooth scroll to section
-function scrollToSection(sectionId) {
-  document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
-}
-
-// Simple animation for blog cards
-document.addEventListener("DOMContentLoaded", function () {
-  const cards = document.querySelectorAll(".blog-card");
-  cards.forEach((card, index) => {
-    setTimeout(() => {
-      card.style.opacity = "1";
-      card.style.transform = "translateY(0)";
-    }, index * 200);
-  });
-});
+<script
+  id="messenger-widget-b"
+  src="https://cdn.botpenguin.com/website-bot.js"
+  defer
+>
+  65ce4d3586e0799ae5d3660c,65ce41e298846b9ec31666f5
+</script>;
